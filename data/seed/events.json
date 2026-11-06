@@ -1,0 +1,854 @@
+[
+  {
+    "date": "2026-03-14T05:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "audit",
+    "content": "2026-03-14 Koramangala: AUDIT by Northwind Corporate Catering (client audit) — result: pass with findings. Findings: (1) MINOR — pest control log incomplete, 4 days missing in February; (2) OBSERVATION — walk-in fridge read 5.8°C during the audit at 10:40am. Auditor said pest-log completeness will be checked again next visit."
+  },
+  {
+    "date": "2026-03-20T09:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "audit",
+    "content": "2026-03-20 Indiranagar: AUDIT by FSSAI food safety officer — result: pass. No findings. Officer praised the receiving temperature log."
+  },
+  {
+    "date": "2026-04-02T06:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "audit",
+    "content": "2026-04-02 HSR Layout: AUDIT by FSSAI food safety officer — result: pass with findings. Findings: MINOR — soap missing at the kitchen handwash station. Fixed same day; soap refill added to opening checklist."
+  },
+  {
+    "date": "2026-09-21T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-21 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.3°C; 14:00 2.9°C; 21:30 2.6°C. Reach-in fridge: 3°C. Freezer: -19.5°C. Bain-marie hot holding: 67°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.7°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-21T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-21 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.4°C; 14:00 3.8°C; 21:30 4°C. Reach-in fridge: 3°C. Freezer: -21°C. Bain-marie hot holding: 70.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.6°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-21T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-21 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.1°C; 14:00 2.8°C; 21:30 2.7°C. Reach-in fridge: 3.5°C. Freezer: -19.7°C. Bain-marie hot holding: 70.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.1°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-09-22T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-22 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.9°C; 14:00 2.8°C; 21:30 2.6°C. Reach-in fridge: 4.1°C. Freezer: -19°C. Bain-marie hot holding: 70.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 2.8°C accepted by Anita D'Souza (day shift)."
+  },
+  {
+    "date": "2026-09-22T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-22 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.4°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 4°C; 21:30 3.8°C. Reach-in fridge: 2.8°C. Freezer: -18.6°C. Bain-marie hot holding: 69.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 2.7°C accepted by Fatima Sheikh (day shift)."
+  },
+  {
+    "date": "2026-09-22T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-22 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.6°C; 14:00 4°C; 21:30 3.2°C. Reach-in fridge: 2.9°C. Freezer: -20.5°C. Bain-marie hot holding: 70.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4.5°C accepted by Lakshmi Iyer (day shift)."
+  },
+  {
+    "date": "2026-09-23T04:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "note",
+    "content": "2026-09-23 Indiranagar: Priya Nair noted that FreshCo Poultry has moved all three outlets to a late-night delivery slot (after 10pm) because of a new delivery route. Night shift now receives chicken."
+  },
+  {
+    "date": "2026-09-23T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-23 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.2°C; 14:00 3.8°C; 21:30 3.2°C. Reach-in fridge: 3.3°C. Freezer: -19.5°C. Bain-marie hot holding: 66.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Anita D'Souza; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-23T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-23 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.5°C; 14:00 4.3°C; 21:30 2.9°C. Reach-in fridge: 3.5°C. Freezer: -19.6°C. Bain-marie hot holding: 64.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Fatima Sheikh; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-23T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-23 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.1°C; 14:00 3.5°C; 21:30 2.5°C. Reach-in fridge: 4.2°C. Freezer: -20.4°C. Bain-marie hot holding: 67.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.3°C accepted by Lakshmi Iyer; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-09-24T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-24 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3°C; 14:00 4°C; 21:30 3.5°C. Reach-in fridge: 3.9°C. Freezer: -21°C. Bain-marie hot holding: 71°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-24T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-24 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.3°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3.5°C; 21:30 2.9°C. Reach-in fridge: 4.1°C. Freezer: -19.8°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-24T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-24 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4°C; 14:00 3.2°C; 21:30 3.2°C. Reach-in fridge: 3.9°C. Freezer: -19.4°C. Bain-marie hot holding: 67.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-09-25T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-25 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.2°C; 14:00 2.8°C; 21:30 3.6°C. Reach-in fridge: 2.8°C. Freezer: -19°C. Bain-marie hot holding: 70.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-25T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-25 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 3.5°C; 21:30 3.5°C. Reach-in fridge: 3.4°C. Freezer: -18.7°C. Bain-marie hot holding: 65.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.4°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 2.7°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-09-25T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-25 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.3°C; 14:00 3.8°C; 21:30 3.7°C. Reach-in fridge: 4.1°C. Freezer: -20.4°C. Bain-marie hot holding: 66°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.1°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 3.2°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-09-25T17:40:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "delivery",
+    "content": "2026-09-25 23:10 Indiranagar: FreshCo Poultry chicken delivery arrived at 8.1°C (limit ≤5°C) and was ACCEPTED by Manjunath K on the night shift. Note on the receiving log: \"driver in a hurry, put straight into walk-in.\""
+  },
+  {
+    "date": "2026-09-26T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-26 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 3.8°C; 21:30 3.3°C. Reach-in fridge: 4.1°C. Freezer: -20.9°C. Bain-marie hot holding: 65.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-09-26T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-26 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.4°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3.4°C; 21:30 3°C. Reach-in fridge: 3°C. Freezer: -20.3°C. Bain-marie hot holding: 67.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-09-26T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-26 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.2°C; 14:00 3°C; 21:30 2.8°C. Reach-in fridge: 3.4°C. Freezer: -20.6°C. Bain-marie hot holding: 67.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-09-27T06:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "corrective-action",
+    "content": "2026-09-27 Koramangala: CORRECTIVE ACTION for repeated morning walk-in fridge breaches: replaced the walk-in fridge thermometer, suspecting a faulty probe. Owner: Arjun Menon. Outcome not yet known."
+  },
+  {
+    "date": "2026-09-27T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-27 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.1°C; 14:00 3.7°C; 21:30 3.1°C. Reach-in fridge: 2.7°C. Freezer: -19.3°C. Bain-marie hot holding: 65°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-27T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-27 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.1°C; 14:00 4.1°C; 21:30 3.3°C. Reach-in fridge: 3.3°C. Freezer: -20.2°C. Bain-marie hot holding: 64.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.3°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-27T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-27 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 3.8°C; 21:30 4°C. Reach-in fridge: 3.5°C. Freezer: -18.7°C. Bain-marie hot holding: 70.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.6°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-09-28T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-28 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4.2°C; 14:00 4.1°C; 21:30 3.1°C. Reach-in fridge: 3.2°C. Freezer: -20.8°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 3.9°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-09-28T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-28 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 4.3°C; 21:30 3.5°C. Reach-in fridge: 2.6°C. Freezer: -19.5°C. Bain-marie hot holding: 64.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 3.4°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-09-28T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-28 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.5°C; 14:00 4.3°C; 21:30 2.6°C. Reach-in fridge: 4°C. Freezer: -18.7°C. Bain-marie hot holding: 66.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 3.9°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-09-29T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-29 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 3.6°C; 21:30 3.9°C. Reach-in fridge: 3.9°C. Freezer: -19.5°C. Bain-marie hot holding: 68.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.1°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-29T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-29 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.6°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3.8°C; 21:30 2.9°C. Reach-in fridge: 2.7°C. Freezer: -19.6°C. Bain-marie hot holding: 68.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.8°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-29T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-29 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.4°C; 14:00 4°C; 21:30 3.6°C. Reach-in fridge: 3.9°C. Freezer: -18.6°C. Bain-marie hot holding: 70°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.1°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-09-30T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-09-30 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.6°C; 14:00 4°C; 21:30 2.8°C. Reach-in fridge: 4°C. Freezer: -19.3°C. Bain-marie hot holding: 68.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-09-30T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-09-30 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.3°C; 14:00 3.8°C; 21:30 2.7°C. Reach-in fridge: 2.4°C. Freezer: -20.5°C. Bain-marie hot holding: 68.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-09-30T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-09-30 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.1°C; 14:00 3.7°C; 21:30 3.3°C. Reach-in fridge: 3.4°C. Freezer: -20.7°C. Bain-marie hot holding: 64.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-01T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-01 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.9°C; 14:00 3.6°C; 21:30 3°C. Reach-in fridge: 3.3°C. Freezer: -19.3°C. Bain-marie hot holding: 64.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.4°C accepted by Anita D'Souza; FreshCo Poultry chicken at 3.1°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-01T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-01 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.5°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3.1°C; 21:30 2.8°C. Reach-in fridge: 3.7°C. Freezer: -18.8°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.2°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 4.4°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-01T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-01 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 3.5°C; 21:30 3.2°C. Reach-in fridge: 3.4°C. Freezer: -18.9°C. Bain-marie hot holding: 65.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.1°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 2.6°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-02T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-02 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.2°C; 14:00 3.2°C; 21:30 4°C. Reach-in fridge: 3.9°C. Freezer: -20.6°C. Bain-marie hot holding: 66°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-02T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-02 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.4°C; 14:00 3.9°C; 21:30 3.7°C. Reach-in fridge: 2.8°C. Freezer: -19.9°C. Bain-marie hot holding: 64.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-02T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-02 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.9°C; 14:00 4.2°C; 21:30 3.8°C. Reach-in fridge: 2.7°C. Freezer: -19.8°C. Bain-marie hot holding: 66.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-02T18:10:00.000Z",
+    "outlet": "Koramangala",
+    "context": "delivery",
+    "content": "2026-10-02 23:40 Koramangala: FreshCo Poultry chicken delivery arrived at 7.4°C (limit ≤5°C) and was ACCEPTED by Imran Pasha on the night shift. Note on the receiving log: \"driver in a hurry, put straight into walk-in.\""
+  },
+  {
+    "date": "2026-10-03T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-03 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.6°C; 14:00 3.3°C; 21:30 3°C. Reach-in fridge: 3.2°C. Freezer: -21°C. Bain-marie hot holding: 65.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.2°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-03T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-03 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 6.9°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3°C; 21:30 3.8°C. Reach-in fridge: 4.2°C. Freezer: -19.3°C. Bain-marie hot holding: 67.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.3°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-03T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-03 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 4.1°C; 21:30 3°C. Reach-in fridge: 2.9°C. Freezer: -19.7°C. Bain-marie hot holding: 66.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-04T12:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "fix-outcome",
+    "content": "2026-10-04 Koramangala: OUTCOME — replacing the walk-in fridge thermometer DID NOT WORK. Morning readings still 6.5–7.5°C on 29 Sep, 1 Oct and 3 Oct with the new thermometer. Afternoon and night readings normal, so the problem is specific to mornings."
+  },
+  {
+    "date": "2026-10-04T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-04 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 3.2°C; 21:30 3.4°C. Reach-in fridge: 3°C. Freezer: -20.9°C. Bain-marie hot holding: 64.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4.3°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-04T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-04 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.1°C; 14:00 3.3°C; 21:30 3.1°C. Reach-in fridge: 3.3°C. Freezer: -18.7°C. Bain-marie hot holding: 64.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 2.8°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-04T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-04 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 2.9°C; 21:30 3.1°C. Reach-in fridge: 3.9°C. Freezer: -19.5°C. Bain-marie hot holding: 69.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4.1°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-05T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-05 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4.4°C; 14:00 4.1°C; 21:30 3°C. Reach-in fridge: 2.9°C. Freezer: -20.7°C. Bain-marie hot holding: 70.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.7°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-05T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-05 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.4°C; 14:00 4°C; 21:30 3.1°C. Reach-in fridge: 3.5°C. Freezer: -19.4°C. Bain-marie hot holding: 70.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.3°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-05T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-05 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.5°C; 14:00 4.1°C; 21:30 3.3°C. Reach-in fridge: 3.1°C. Freezer: -15.8°C — BREACH (limit ≤ -18°C) after defrost cycle; rechecked at -19.2°C one hour later, stock not affected. Bain-marie hot holding: 70.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-06T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-06 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.3°C; 14:00 4.2°C; 21:30 3.7°C. Reach-in fridge: 3.1°C. Freezer: -20.6°C. Bain-marie hot holding: 64.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-06T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-06 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 7.4°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 3.1°C; 21:30 2.8°C. Reach-in fridge: 3.7°C. Freezer: -20.9°C. Bain-marie hot holding: 70.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-06T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-06 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.3°C; 14:00 4.1°C; 21:30 2.6°C. Reach-in fridge: 3.6°C. Freezer: -20°C. Bain-marie hot holding: 70.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-07T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-07 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4°C; 14:00 3.1°C; 21:30 2.9°C. Reach-in fridge: 4.1°C. Freezer: -19.4°C. Bain-marie hot holding: 67.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Anita D'Souza; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza; FreshCo Poultry chicken at 3.3°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-07T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-07 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.4°C; 14:00 4.3°C; 21:30 2.6°C. Reach-in fridge: 2.8°C. Freezer: -20°C. Bain-marie hot holding: 65.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.2°C accepted by Fatima Sheikh; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh; FreshCo Poultry chicken at 2.5°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-07T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-07 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4°C; 14:00 3.1°C; 21:30 3.7°C. Reach-in fridge: 2.5°C. Freezer: -19.3°C. Bain-marie hot holding: 68.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.1°C accepted by Lakshmi Iyer; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer; FreshCo Poultry chicken at 3°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-08T10:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "note",
+    "content": "2026-10-08 Koramangala: Arjun Menon observed that the morning prep team (Ravi Kumar) loads trays of freshly marinated chicken into the walk-in around 6am and the door stays open for long stretches during prep."
+  },
+  {
+    "date": "2026-10-08T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-08 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.1°C; 14:00 3.5°C; 21:30 3.2°C. Reach-in fridge: 3.9°C. Freezer: -19.6°C. Bain-marie hot holding: 71°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-08T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-08 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 6.5°C — BREACH (limit ≤5°C), logged by Ravi Kumar, morning shift, during prep; 14:00 2.8°C; 21:30 2.7°C. Reach-in fridge: 4.1°C. Freezer: -20.5°C. Bain-marie hot holding: 70.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-08T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-08 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.7°C; 14:00 3.9°C; 21:30 2.6°C. Reach-in fridge: 3°C. Freezer: -19.1°C. Bain-marie hot holding: 68.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-09T03:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "corrective-action",
+    "content": "2026-10-09 Koramangala: CORRECTIVE ACTION for morning walk-in breaches: marination moved to the separate reach-in fridge 2, and walk-in door opening limited during prep. Owner: Arjun Menon. Outcome not yet known."
+  },
+  {
+    "date": "2026-10-09T05:50:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "delivery",
+    "content": "2026-10-09 11:20 HSR Layout: FreshCo Poultry chicken delivery arrived at 6.9°C (limit ≤5°C) and was REJECTED by Lakshmi Iyer on the day shift. Supplier sent a replacement that evening at 3.6°C."
+  },
+  {
+    "date": "2026-10-09T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-09 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4°C; 14:00 4.2°C; 21:30 2.7°C. Reach-in fridge: 3°C. Freezer: -20.7°C. Bain-marie hot holding: 64.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-09T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-09 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.8°C; 14:00 2.9°C; 21:30 2.6°C. Reach-in fridge: 3.6°C. Freezer: -19.4°C. Bain-marie hot holding: 66°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.6°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-09T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-09 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.4°C; 14:00 2.9°C; 21:30 3.5°C. Reach-in fridge: 3.5°C. Freezer: -19.2°C. Bain-marie hot holding: 64.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-10T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-10 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 3.9°C; 21:30 3.7°C. Reach-in fridge: 4.1°C. Freezer: -20.3°C. Bain-marie hot holding: 69.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 3°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-10T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-10 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.7°C; 14:00 4.1°C; 21:30 2.7°C. Reach-in fridge: 4°C. Freezer: -18.9°C. Bain-marie hot holding: 66.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4.4°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-10T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-10 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 3.2°C; 21:30 3.5°C. Reach-in fridge: 2.8°C. Freezer: -20.7°C. Bain-marie hot holding: 64.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-11T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-11 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.8°C; 14:00 3.2°C; 21:30 4°C. Reach-in fridge: 4.2°C. Freezer: -20.1°C. Bain-marie hot holding: 69.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-11T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-11 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 3.4°C; 21:30 3.2°C. Reach-in fridge: 4.1°C. Freezer: -18.7°C. Bain-marie hot holding: 65.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.2°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-11T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-11 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.2°C; 14:00 3.1°C; 21:30 3.7°C. Reach-in fridge: 3.9°C. Freezer: -20.6°C. Bain-marie hot holding: 65.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.8°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-12T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-12 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.3°C; 14:00 2.9°C; 21:30 3.1°C. Reach-in fridge: 2.9°C. Freezer: -20°C. Bain-marie hot holding: 67.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-12T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-12 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.8°C; 14:00 3.6°C; 21:30 2.8°C. Reach-in fridge: 3.2°C. Freezer: -20°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-12T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-12 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.7°C; 14:00 4.2°C; 21:30 2.5°C. Reach-in fridge: 2.6°C. Freezer: -18.7°C. Bain-marie hot holding: 68.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-13T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-13 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.2°C; 14:00 2.9°C; 21:30 3.5°C. Reach-in fridge: 2.9°C. Freezer: -20°C. Bain-marie hot holding: 65.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.6°C accepted by Anita D'Souza; FreshCo Poultry chicken at 3.9°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-13T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-13 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 2.8°C; 14:00 3.6°C; 21:30 3.7°C. Reach-in fridge: 2.9°C. Freezer: -18.6°C. Bain-marie hot holding: 64.9°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: Nandini Dairy milk & paneer at 4°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 4.3°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-13T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-13 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.3°C; 14:00 3.4°C; 21:30 2.5°C. Reach-in fridge: 3.5°C. Freezer: -18.6°C. Bain-marie hot holding: 67.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 4°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-14T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-14 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4.3°C; 14:00 3.8°C; 21:30 3.9°C. Reach-in fridge: 4.1°C. Freezer: -20.2°C. Bain-marie hot holding: 64.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-14T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-14 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 4°C; 21:30 3.4°C. Reach-in fridge: 3.8°C. Freezer: -19.7°C. Bain-marie hot holding: 65.7°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-14T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-14 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.8°C; 14:00 4°C; 21:30 3.5°C. Reach-in fridge: 2.8°C. Freezer: -19.3°C. Bain-marie hot holding: 64.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-15T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-15 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.9°C; 14:00 3.7°C; 21:30 3°C. Reach-in fridge: 4.1°C. Freezer: -19.8°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-15T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-15 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.2°C; 14:00 3.3°C; 21:30 3.1°C. Reach-in fridge: 2.9°C. Freezer: -20.7°C. Bain-marie hot holding: 64.7°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: Nandini Dairy milk & paneer at 3.7°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-15T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-15 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.8°C; 14:00 3.6°C; 21:30 3.2°C. Reach-in fridge: 2.8°C. Freezer: -20.3°C. Bain-marie hot holding: 65°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-16T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-16 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.9°C; 14:00 4°C; 21:30 3.9°C. Reach-in fridge: 2.5°C. Freezer: -20.5°C. Bain-marie hot holding: 64.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-16T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-16 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.1°C; 14:00 3.5°C; 21:30 3.1°C. Reach-in fridge: 3°C. Freezer: -19°C. Bain-marie hot holding: 68.4°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: FreshCo Poultry chicken at 3.1°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-16T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-16 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.6°C; 14:00 4.1°C; 21:30 3.9°C. Reach-in fridge: 2.6°C. Freezer: -19.2°C. Bain-marie hot holding: 69.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 3.8°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-16T17:25:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "delivery",
+    "content": "2026-10-16 22:55 Indiranagar: FreshCo Poultry chicken delivery arrived at 7.8°C (limit ≤5°C) and was ACCEPTED by Manjunath K on the night shift. Note on the receiving log: \"driver in a hurry, put straight into walk-in.\""
+  },
+  {
+    "date": "2026-10-17T12:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "fix-outcome",
+    "content": "2026-10-17 Koramangala: OUTCOME — moving marination out of the walk-in WORKED. Walk-in morning readings 3–4°C every day from 10 Oct to 17 Oct."
+  },
+  {
+    "date": "2026-10-17T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-17 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.9°C; 14:00 2.8°C; 21:30 3°C. Reach-in fridge: 3.9°C. Freezer: -19.4°C. Bain-marie hot holding: 68.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.1°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-17T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-17 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.2°C; 14:00 3.3°C; 21:30 3.4°C. Reach-in fridge: 3.3°C. Freezer: -19.7°C. Bain-marie hot holding: 65.9°C. Cleaning schedule: completed and signed. Pest control check: NOT RECORDED (log left blank). Deliveries: Nandini Dairy milk & paneer at 3.6°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-17T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-17 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.4°C; 14:00 3.6°C; 21:30 3°C. Reach-in fridge: 3.7°C. Freezer: -18.9°C. Bain-marie hot holding: 64°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.7°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-18T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-18 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 3.1°C; 21:30 3.1°C. Reach-in fridge: 3.9°C. Freezer: -20.4°C. Bain-marie hot holding: 68.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-18T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-18 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.3°C; 14:00 2.9°C; 21:30 3.5°C. Reach-in fridge: 2.4°C. Freezer: -19.8°C. Bain-marie hot holding: 67°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-18T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-18 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.4°C; 14:00 3.1°C; 21:30 2.5°C. Reach-in fridge: 3.5°C. Freezer: -19.7°C. Bain-marie hot holding: 70°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-19T04:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "note",
+    "content": "2026-10-19 Koramangala: pest control contractor (PestGuard) confirmed they visited on 14 Oct, but the outlet's own daily pest check log is blank from 12 to 17 Oct — staff on leave during Ayudha Puja week, nobody covered the check."
+  },
+  {
+    "date": "2026-10-19T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-19 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.6°C; 14:00 2.9°C; 21:30 3°C. Reach-in fridge: 4.1°C. Freezer: -20.2°C. Bain-marie hot holding: 65.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.5°C accepted by Anita D'Souza; FreshCo Poultry chicken at 4.3°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-19T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-19 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 2.9°C; 14:00 3.7°C; 21:30 3.1°C. Reach-in fridge: 3.6°C. Freezer: -19°C. Bain-marie hot holding: 67.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.4°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 4.6°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-19T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-19 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.5°C; 14:00 4.2°C; 21:30 2.8°C. Reach-in fridge: 3.5°C. Freezer: -18.7°C. Bain-marie hot holding: 68.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 2.9°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-20T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-20 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.5°C; 14:00 3.2°C; 21:30 3.2°C. Reach-in fridge: 3.2°C. Freezer: -19.5°C. Bain-marie hot holding: 61°C — BREACH (limit ≥63°C); gravy reheated to 75°C and element setting corrected, rechecked 68°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-20T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-20 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.4°C; 14:00 3.2°C; 21:30 3.1°C. Reach-in fridge: 3.5°C. Freezer: -19.5°C. Bain-marie hot holding: 68.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-20T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-20 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.2°C; 14:00 3.7°C; 21:30 3.7°C. Reach-in fridge: 2.8°C. Freezer: -19.8°C. Bain-marie hot holding: 69.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-21T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-21 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.9°C; 14:00 4.2°C; 21:30 3.6°C. Reach-in fridge: 3.4°C. Freezer: -18.5°C. Bain-marie hot holding: 65°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.3°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-21T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-21 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.8°C; 14:00 3.7°C; 21:30 2.9°C. Reach-in fridge: 3.6°C. Freezer: -20.9°C. Bain-marie hot holding: 67.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.9°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-21T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-21 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.5°C; 14:00 3.7°C; 21:30 3.9°C. Reach-in fridge: 4.2°C. Freezer: -18.8°C. Bain-marie hot holding: 71°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer; Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-22T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-22 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4°C; 14:00 3°C; 21:30 3.2°C. Reach-in fridge: 4.1°C. Freezer: -20.6°C. Bain-marie hot holding: 71°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-22T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-22 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 2.7°C; 14:00 3.6°C; 21:30 2.7°C. Reach-in fridge: 3.5°C. Freezer: -20.8°C. Bain-marie hot holding: 68.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 2.4°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-22T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-22 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.7°C; 14:00 2.9°C; 21:30 3.7°C. Reach-in fridge: 3.1°C. Freezer: -19.8°C. Bain-marie hot holding: 69.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: FreshCo Poultry chicken at 4.2°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-23T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-23 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.5°C; 14:00 2.8°C; 21:30 2.8°C. Reach-in fridge: 3.1°C. Freezer: -19.9°C. Bain-marie hot holding: 66.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-23T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-23 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.7°C; 14:00 3.7°C; 21:30 2.9°C. Reach-in fridge: 4.1°C. Freezer: -18.6°C. Bain-marie hot holding: 64.1°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.6°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-23T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-23 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.9°C; 14:00 3.8°C; 21:30 2.9°C. Reach-in fridge: 3.1°C. Freezer: -19.6°C. Bain-marie hot holding: 69.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.2°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-23T17:55:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "delivery",
+    "content": "2026-10-23 23:25 HSR Layout: FreshCo Poultry chicken delivery arrived at 8.4°C (limit ≤5°C) and was ACCEPTED by Deepak Shetty on the night shift. Note on the receiving log: \"driver in a hurry, put straight into walk-in.\""
+  },
+  {
+    "date": "2026-10-24T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-24 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.6°C; 14:00 3.7°C; 21:30 3.6°C. Reach-in fridge: 3.1°C. Freezer: -18.6°C. Bain-marie hot holding: 65.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-24T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-24 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3°C; 14:00 3.2°C; 21:30 2.7°C. Reach-in fridge: 3.3°C. Freezer: -19°C. Bain-marie hot holding: 65.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-24T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-24 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.2°C; 14:00 3.6°C; 21:30 2.6°C. Reach-in fridge: 3.1°C. Freezer: -20.6°C. Bain-marie hot holding: 69°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-25T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-25 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.8°C; 14:00 4.1°C; 21:30 3°C. Reach-in fridge: 2.9°C. Freezer: -19.9°C. Bain-marie hot holding: 67.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.3°C accepted by Anita D'Souza; FreshCo Poultry chicken at 2.8°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-25T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-25 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.9°C; 14:00 3.1°C; 21:30 2.6°C. Reach-in fridge: 3.2°C. Freezer: -18.7°C. Bain-marie hot holding: 67.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.2°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 3°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-25T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-25 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.1°C; 14:00 4.1°C; 21:30 3.8°C. Reach-in fridge: 2.7°C. Freezer: -20.8°C. Bain-marie hot holding: 67.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 3.5°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-26T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-26 (Monday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3°C; 14:00 3.8°C; 21:30 3.5°C. Reach-in fridge: 3.6°C. Freezer: -20.7°C. Bain-marie hot holding: 67.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-26T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-26 (Monday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3.3°C; 14:00 3.4°C; 21:30 2.6°C. Reach-in fridge: 2.6°C. Freezer: -20.2°C. Bain-marie hot holding: 65.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-26T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-26 (Monday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.8°C; 14:00 3.7°C; 21:30 2.6°C. Reach-in fridge: 3.1°C. Freezer: -20.3°C. Bain-marie hot holding: 65.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-10-27T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-27 (Tuesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.8°C; 14:00 3.5°C; 21:30 3.1°C. Reach-in fridge: 2.6°C. Freezer: -19.2°C. Bain-marie hot holding: 68.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.9°C accepted by Anita D'Souza; Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-27T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-27 (Tuesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 4.1°C; 21:30 3.3°C. Reach-in fridge: 4.2°C. Freezer: -20.1°C. Bain-marie hot holding: 67.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.5°C accepted by Fatima Sheikh; Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-27T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-27 (Tuesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.7°C; 14:00 3.3°C; 21:30 3.7°C. Reach-in fridge: 3°C. Freezer: -20.7°C. Bain-marie hot holding: 65°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.4°C accepted by Lakshmi Iyer; Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-28T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-28 (Wednesday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.7°C; 14:00 3.1°C; 21:30 3°C. Reach-in fridge: 3.3°C. Freezer: -19.4°C. Bain-marie hot holding: 64.9°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Anita D'Souza; FreshCo Poultry chicken at 4.6°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-28T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-28 (Wednesday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.2°C; 14:00 3.3°C; 21:30 3.7°C. Reach-in fridge: 3.4°C. Freezer: -19°C. Bain-marie hot holding: 69.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Fatima Sheikh; FreshCo Poultry chicken at 3.2°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-28T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-28 (Wednesday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 4.2°C; 14:00 2.9°C; 21:30 2.9°C. Reach-in fridge: 3°C. Freezer: -20.3°C. Bain-marie hot holding: 66.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Sri Lakshmi Traders dry goods (rice, atta, spices) accepted by Lakshmi Iyer; FreshCo Poultry chicken at 2.5°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-10-29T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-29 (Thursday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4.4°C; 14:00 3.5°C; 21:30 3.1°C. Reach-in fridge: 3.3°C. Freezer: -18.9°C. Bain-marie hot holding: 68.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-29T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-29 (Thursday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4°C; 14:00 3.4°C; 21:30 3.8°C. Reach-in fridge: 3.1°C. Freezer: -20.2°C. Bain-marie hot holding: 65°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.9°C accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-29T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-29 (Thursday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.8°C; 14:00 3.6°C; 21:30 3.6°C. Reach-in fridge: 2.6°C. Freezer: -19.9°C. Bain-marie hot holding: 69.6°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.9°C accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-30T05:30:00.000Z",
+    "outlet": "Group",
+    "context": "note",
+    "content": "2026-10-30 Group: Meera Rao (Head of Compliance) noted that Northwind Corporate Catering will do a surprise-style audit at Koramangala on Friday 13 November 2026."
+  },
+  {
+    "date": "2026-10-30T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-30 (Friday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 3.4°C; 14:00 3.6°C; 21:30 2.9°C. Reach-in fridge: 3.9°C. Freezer: -20.6°C. Bain-marie hot holding: 68.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Anita D'Souza."
+  },
+  {
+    "date": "2026-10-30T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-30 (Friday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 3°C; 14:00 3.6°C; 21:30 2.9°C. Reach-in fridge: 2.6°C. Freezer: -20.3°C. Bain-marie hot holding: 65.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Fatima Sheikh."
+  },
+  {
+    "date": "2026-10-30T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-30 (Friday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.1°C; 14:00 3.4°C; 21:30 3.5°C. Reach-in fridge: 3°C. Freezer: -20.6°C. Bain-marie hot holding: 66.5°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Hopcoms vegetables accepted by Lakshmi Iyer."
+  },
+  {
+    "date": "2026-10-31T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-10-31 (Saturday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 4°C; 14:00 2.8°C; 21:30 2.9°C. Reach-in fridge: 2.7°C. Freezer: -19.7°C. Bain-marie hot holding: 66.8°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 4.4°C accepted by Anita D'Souza; FreshCo Poultry chicken at 3.8°C accepted by Manjunath K (night shift)."
+  },
+  {
+    "date": "2026-10-31T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-10-31 (Saturday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 4.1°C; 14:00 3.5°C; 21:30 3.8°C. Reach-in fridge: 2.9°C. Freezer: -18.8°C. Bain-marie hot holding: 69.7°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 2.6°C accepted by Fatima Sheikh; FreshCo Poultry chicken at 3.9°C accepted by Imran Pasha (night shift)."
+  },
+  {
+    "date": "2026-10-31T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-10-31 (Saturday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 2.8°C; 14:00 3.3°C; 21:30 3°C. Reach-in fridge: 2.8°C. Freezer: -19.6°C. Bain-marie hot holding: 68°C. Cleaning schedule: completed and signed. Pest control check: done, no activity. Deliveries: Nandini Dairy milk & paneer at 3.5°C accepted by Lakshmi Iyer; FreshCo Poultry chicken at 3.8°C accepted by Deepak Shetty (night shift)."
+  },
+  {
+    "date": "2026-11-01T16:30:00.000Z",
+    "outlet": "Indiranagar",
+    "context": "daily-log",
+    "content": "2026-11-01 (Sunday) Indiranagar daily food-safety log, signed by Priya Nair. Walk-in fridge: 06:30 2.7°C; 14:00 4.3°C; 21:30 3.8°C. Reach-in fridge: 3.9°C. Freezer: -19.7°C. Bain-marie hot holding: 70.3°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-11-01T16:30:00.000Z",
+    "outlet": "Koramangala",
+    "context": "daily-log",
+    "content": "2026-11-01 (Sunday) Koramangala daily food-safety log, signed by Arjun Menon. Walk-in fridge: 06:30 2.6°C; 14:00 3.8°C; 21:30 3.4°C. Reach-in fridge: 3.5°C. Freezer: -20.7°C. Bain-marie hot holding: 68.4°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  },
+  {
+    "date": "2026-11-01T16:30:00.000Z",
+    "outlet": "HSR Layout",
+    "context": "daily-log",
+    "content": "2026-11-01 (Sunday) HSR Layout daily food-safety log, signed by Kavya Reddy. Walk-in fridge: 06:30 3.8°C; 14:00 3.6°C; 21:30 2.7°C. Reach-in fridge: 3.3°C. Freezer: -19.9°C. Bain-marie hot holding: 64.2°C. Cleaning schedule: completed and signed. Pest control check: done, no activity."
+  }
+]

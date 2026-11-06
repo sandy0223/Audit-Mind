@@ -1,0 +1,29 @@
+{
+  "name": "auditmind",
+  "version": "0.1.0",
+  "description": "A food-safety compliance agent that remembers every check, fix and audit — powered by Hindsight memory, running in Band rooms.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "band": "tsx src/band.ts",
+    "cli": "tsx src/cli.ts",
+    "generate": "tsx scripts/generate-data.ts",
+    "seed": "tsx scripts/seed.ts",
+    "seed:compliance": "tsx scripts/seed-compliance.ts",
+    "test": "tsx src/tests.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@band-ai/sdk": "latest",
+    "@vectorize-io/hindsight-client": "latest",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

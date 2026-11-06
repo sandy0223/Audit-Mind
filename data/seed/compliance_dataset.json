@@ -1,0 +1,1991 @@
+{
+  "dataset_metadata": {
+    "synthetic": true,
+    "dataset_name": "Food Safety Compliance Longitudinal Audit Dataset",
+    "version": "1.0",
+    "domain": "Food-safety compliance for a fictional multi-site restaurant business",
+    "jurisdiction": "India",
+    "organization": "Northwind Kitchens Pvt. Ltd. (Fictional)",
+    "date_range": {
+      "start": "2025-11-01",
+      "end": "2026-10-31"
+    },
+    "site_count": 3,
+    "limitations": [
+      "All organizations, locations, people, suppliers, policies, observations, audit records, and results are fictional.",
+      "All requirements are synthetic internal policies and are not representations of Indian law or FSSAI regulations.",
+      "No authoritative regulatory source documents were supplied.",
+      "Illustrative temperature limits and operational standards are fictional internal control thresholds.",
+      "This dataset must not be represented as genuine audit evidence or proof of legal compliance.",
+      "Missing records indicate that evidence was not available in the dataset, not necessarily that an activity did not occur.",
+      "A completed corrective action is not considered effective until independently verified."
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-001",
+      "name": "Northwind Food Safety Manual v1.0",
+      "type": "fictional_internal_policy",
+      "version": "1.0",
+      "jurisdiction": "Internal - India",
+      "issued_at": "2025-11-01",
+      "effective_from": "2025-11-01",
+      "effective_to": "2026-03-31",
+      "description": "Initial internal food-safety requirements covering cold storage, receiving, cleaning, pest control, and employee hygiene.",
+      "authoritative": false
+    },
+    {
+      "id": "SRC-002",
+      "name": "Northwind Food Safety Manual v2.0",
+      "type": "fictional_internal_policy",
+      "version": "2.0",
+      "jurisdiction": "Internal - India",
+      "issued_at": "2026-03-15",
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "supersedes": "SRC-001",
+      "description": "Updated internal policy introducing documented receiving rejection procedures, more frequent temperature monitoring, and mandatory verification of corrective actions.",
+      "authoritative": false
+    },
+    {
+      "id": "SRC-003",
+      "name": "Northwind Internal Audit Procedure",
+      "type": "fictional_internal_procedure",
+      "version": "1.0",
+      "jurisdiction": "Internal - India",
+      "issued_at": "2025-11-01",
+      "effective_from": "2025-11-01",
+      "effective_to": null,
+      "description": "Defines audit sampling, finding severity, corrective action ownership, and verification requirements.",
+      "authoritative": false
+    },
+    {
+      "id": "SRC-004",
+      "name": "Northwind Receiving Protocol v2.0",
+      "type": "fictional_internal_procedure",
+      "version": "2.0",
+      "jurisdiction": "Internal - India",
+      "issued_at": "2026-04-01",
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "description": "Requires recording supplier, batch, receiving temperature, inspection result, rejection reason, and disposition for rejected goods.",
+      "authoritative": false
+    }
+  ],
+  "sites": [
+    {
+      "id": "SITE-001",
+      "name": "Northwind Koramangala",
+      "location": "Koramangala, Bengaluru, Karnataka, India",
+      "site_type": "Restaurant",
+      "operational_status": "Active"
+    },
+    {
+      "id": "SITE-002",
+      "name": "Northwind Indiranagar",
+      "location": "Indiranagar, Bengaluru, Karnataka, India",
+      "site_type": "Restaurant",
+      "operational_status": "Active"
+    },
+    {
+      "id": "SITE-003",
+      "name": "Northwind Whitefield",
+      "location": "Whitefield, Bengaluru, Karnataka, India",
+      "site_type": "Restaurant",
+      "operational_status": "Active"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "title": "Walk-in refrigerator temperature monitoring",
+      "summary": "Walk-in refrigerators must be maintained between 0°C and 5°C under the illustrative internal standard. Temperature must be recorded twice daily.",
+      "source_id": "SRC-001",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2025-11-01",
+      "effective_to": "2026-03-31",
+      "superseded_by": "REQ-002",
+      "synthetic": true
+    },
+    {
+      "id": "REQ-002",
+      "title": "Updated walk-in refrigerator monitoring",
+      "summary": "Walk-in refrigerators must remain between 0°C and 5°C under the illustrative internal standard. Records must be completed at opening and closing, with an additional reading after a temperature excursion or equipment intervention.",
+      "source_id": "SRC-002",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "supersedes": "REQ-001",
+      "synthetic": true
+    },
+    {
+      "id": "REQ-003",
+      "title": "Supplier receiving inspection",
+      "summary": "Incoming chilled goods must be inspected for packaging condition, identification, and receiving temperature. The illustrative internal acceptance threshold for chilled goods is 5°C or below.",
+      "source_id": "SRC-001",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2025-11-01",
+      "effective_to": "2026-03-31",
+      "superseded_by": "REQ-004",
+      "synthetic": true
+    },
+    {
+      "id": "REQ-004",
+      "title": "Documented supplier rejection procedure",
+      "summary": "Receiving records must identify the supplier, batch, item, measured temperature, inspection result, rejection reason, disposition, and responsible receiver.",
+      "source_id": "SRC-002",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "supersedes": "REQ-003",
+      "synthetic": true
+    },
+    {
+      "id": "REQ-005",
+      "title": "Pest control monitoring",
+      "summary": "Each site must maintain a pest-control inspection record at least weekly and document pest sightings, treatment, and follow-up observations.",
+      "source_id": "SRC-001",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2025-11-01",
+      "effective_to": null,
+      "synthetic": true
+    },
+    {
+      "id": "REQ-006",
+      "title": "Cleaning and sanitation records",
+      "summary": "Food preparation surfaces and designated food-contact equipment must be cleaned according to the internal cleaning schedule. Completion must be documented.",
+      "source_id": "SRC-001",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2025-11-01",
+      "effective_to": null,
+      "synthetic": true
+    },
+    {
+      "id": "REQ-007",
+      "title": "Employee personal hygiene",
+      "summary": "Employees handling food must follow the internal handwashing, protective clothing, and illness-reporting procedures.",
+      "source_id": "SRC-001",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2025-11-01",
+      "effective_to": null,
+      "synthetic": true
+    },
+    {
+      "id": "REQ-008",
+      "title": "Corrective action verification",
+      "summary": "Corrective actions must have an assigned owner, due date, completion evidence, and a recorded effectiveness verification.",
+      "source_id": "SRC-002",
+      "jurisdiction": "Internal - India",
+      "effective_from": "2026-04-01",
+      "effective_to": null,
+      "synthetic": true
+    }
+  ],
+  "controls": [
+    {
+      "id": "CTRL-001",
+      "name": "Walk-in refrigerator temperature logging",
+      "purpose": "Detect and respond to cold-storage temperature excursions.",
+      "requirement_ids": [
+        "REQ-001",
+        "REQ-002"
+      ],
+      "frequency": "Opening and closing daily; additional reading after excursions or intervention from 2026-04-01",
+      "responsible_role": "Shift Supervisor",
+      "acceptable_evidence": [
+        "Temperature log",
+        "Thermometer reading",
+        "Equipment service report"
+      ],
+      "threshold": {
+        "minimum_celsius": 0,
+        "maximum_celsius": 5,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "CTRL-002",
+      "name": "Supplier receiving inspection",
+      "purpose": "Identify unsuitable incoming chilled goods before acceptance.",
+      "requirement_ids": [
+        "REQ-003",
+        "REQ-004"
+      ],
+      "frequency": "Every chilled goods delivery",
+      "responsible_role": "Receiving Supervisor",
+      "acceptable_evidence": [
+        "Receiving register",
+        "Temperature record",
+        "Supplier delivery note",
+        "Rejection record"
+      ]
+    },
+    {
+      "id": "CTRL-003",
+      "name": "Pest-control inspection",
+      "purpose": "Detect and document pest activity.",
+      "requirement_ids": [
+        "REQ-005"
+      ],
+      "frequency": "Weekly",
+      "responsible_role": "Facilities Supervisor",
+      "acceptable_evidence": [
+        "Pest-control register",
+        "Service report",
+        "Treatment record",
+        "Inspection photographs"
+      ]
+    },
+    {
+      "id": "CTRL-004",
+      "name": "Cleaning and sanitation verification",
+      "purpose": "Ensure food preparation areas are cleaned and documented.",
+      "requirement_ids": [
+        "REQ-006"
+      ],
+      "frequency": "Daily",
+      "responsible_role": "Kitchen Supervisor",
+      "acceptable_evidence": [
+        "Cleaning checklist",
+        "Sanitation inspection",
+        "Signed verification record"
+      ]
+    },
+    {
+      "id": "CTRL-005",
+      "name": "Employee hygiene checks",
+      "purpose": "Verify food-handler hygiene practices.",
+      "requirement_ids": [
+        "REQ-007"
+      ],
+      "frequency": "Opening shift and during operations",
+      "responsible_role": "Shift Supervisor",
+      "acceptable_evidence": [
+        "Hygiene checklist",
+        "Training record",
+        "Observation record"
+      ]
+    },
+    {
+      "id": "CTRL-006",
+      "name": "Corrective action effectiveness verification",
+      "purpose": "Confirm that corrective actions address identified failures.",
+      "requirement_ids": [
+        "REQ-008"
+      ],
+      "frequency": "After completion and before closure",
+      "responsible_role": "Internal Audit Manager",
+      "acceptable_evidence": [
+        "Follow-up inspection",
+        "Photographs",
+        "Repeat control test",
+        "Verification report"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "REC-001",
+      "type": "control_test",
+      "occurred_at": "2025-11-05T08:15:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "test": "Opening refrigerator temperature",
+        "temperature_celsius": 3.2,
+        "result": "pass",
+        "evidence_reference": "TEMP-KOR-001",
+        "recorder_role": "Shift Supervisor"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-002",
+      "type": "control_test",
+      "occurred_at": "2025-11-18T08:20:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "test": "Opening refrigerator temperature",
+        "temperature_celsius": 7.4,
+        "result": "fail",
+        "evidence_reference": "TEMP-KOR-002",
+        "recorder_role": "Shift Supervisor",
+        "immediate_response": "Products transferred to another refrigerator; maintenance requested."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-003",
+      "type": "control_test",
+      "occurred_at": "2025-11-19T08:10:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "temperature_celsius": 4.1,
+        "result": "pass",
+        "evidence_reference": "TEMP-KOR-003",
+        "note": "Reading within illustrative internal range."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-004",
+      "type": "audit",
+      "occurred_at": "2025-11-25T11:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004",
+        "CTRL-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-KOR-001",
+        "auditor": "Internal Auditor A",
+        "audit_type": "Initial internal audit",
+        "scope": [
+          "Cold storage",
+          "Receiving",
+          "Pest control",
+          "Cleaning",
+          "Hygiene"
+        ],
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-001",
+          "FND-002"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-005",
+      "type": "finding",
+      "occurred_at": "2025-11-25T12:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-004",
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-001",
+        "severity": "major",
+        "description": "Refrigerator temperature exceeded the illustrative internal maximum during the sampled opening check.",
+        "evidence": [
+          "REC-002"
+        ],
+        "status": "open",
+        "repeat_finding": false
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-006",
+      "type": "finding",
+      "occurred_at": "2025-11-25T12:15:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-004",
+        "CTRL-002",
+        "REQ-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-002",
+        "severity": "minor",
+        "description": "Two sampled receiving entries lacked recorded delivery temperatures.",
+        "evidence": [
+          "RECV-KOR-011"
+        ],
+        "status": "open",
+        "repeat_finding": false
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-007",
+      "type": "remediation",
+      "occurred_at": "2025-11-26T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-001",
+        "REC-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Arrange refrigerator inspection and introduce supervisor temperature checks.",
+        "owner_role": "Facilities Supervisor",
+        "due_date": "2025-12-02",
+        "completion_date": "2025-12-01",
+        "status": "completed",
+        "completion_evidence": "MAINT-KOR-001",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-008",
+      "type": "remediation",
+      "occurred_at": "2025-11-26T10:30:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-002",
+        "REC-006"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Reinforce mandatory temperature entry during receiving.",
+        "owner_role": "Receiving Supervisor",
+        "due_date": "2025-12-05",
+        "completion_date": null,
+        "status": "overdue",
+        "verification_status": "not_verified"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-009",
+      "type": "verification",
+      "occurred_at": "2025-12-08T09:30:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-007",
+        "FND-001",
+        "CTRL-001"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Follow-up temperature test",
+        "temperature_celsius": 3.8,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-KOR-001"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-010",
+      "type": "control_test",
+      "occurred_at": "2025-12-12T08:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "temperature_celsius": 3.6,
+        "result": "pass",
+        "evidence_reference": "TEMP-IND-001",
+        "recorder_role": "Shift Supervisor"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-011",
+      "type": "audit",
+      "occurred_at": "2025-12-15T14:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004",
+        "CTRL-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-IND-001",
+        "auditor": "Internal Auditor B",
+        "audit_type": "Routine internal audit",
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-003"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-012",
+      "type": "finding",
+      "occurred_at": "2025-12-15T14:30:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-011",
+        "CTRL-003",
+        "REQ-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-003",
+        "severity": "minor",
+        "description": "Weekly pest inspection register contained a six-day evidence gap.",
+        "evidence": [
+          "PEST-IND-DEC-01"
+        ],
+        "status": "open",
+        "repeat_finding": false
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-013",
+      "type": "remediation",
+      "occurred_at": "2025-12-16T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "FND-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Reinstate weekly inspection schedule and maintain signed records.",
+        "owner_role": "Facilities Supervisor",
+        "due_date": "2025-12-22",
+        "completion_date": "2025-12-21",
+        "status": "completed",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-014",
+      "type": "verification",
+      "occurred_at": "2025-12-29T11:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-013",
+        "FND-003",
+        "CTRL-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Review of subsequent weekly pest inspection records",
+        "records_reviewed": 2,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-IND-PEST-001"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-015",
+      "type": "control_test",
+      "occurred_at": "2026-01-10T17:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "temperature_celsius": 4.2,
+        "result": "pass",
+        "evidence_reference": "TEMP-WHF-001"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-016",
+      "type": "control_test",
+      "occurred_at": "2026-01-18T08:30:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "temperature_celsius": 6.8,
+        "result": "fail",
+        "evidence_reference": "TEMP-KOR-JAN-01",
+        "recorder_role": "Shift Supervisor",
+        "immediate_response": "Temperature reading escalated to facilities."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-017",
+      "type": "finding",
+      "occurred_at": "2026-01-20T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-016",
+        "FND-001",
+        "CTRL-001",
+        "REQ-001"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-004",
+        "severity": "major",
+        "description": "A second above-limit refrigerator reading was recorded after the previous finding had been closed.",
+        "evidence": [
+          "REC-016",
+          "REC-009"
+        ],
+        "status": "open",
+        "repeat_finding": true,
+        "recurs_from": "FND-001"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-018",
+      "type": "remediation",
+      "occurred_at": "2026-01-21T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-004"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Replace refrigerator thermostat and conduct temperature monitoring.",
+        "owner_role": "Facilities Supervisor",
+        "due_date": "2026-01-28",
+        "completion_date": "2026-01-30",
+        "status": "completed_late",
+        "completion_evidence": "MAINT-KOR-JAN-02",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-019",
+      "type": "verification",
+      "occurred_at": "2026-02-02T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-018",
+        "FND-004",
+        "CTRL-001"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "temperature_celsius": 3.5,
+        "verification_method": "Physical temperature test",
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-KOR-JAN-02"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-020",
+      "type": "control_test",
+      "occurred_at": "2026-02-14T12:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-004",
+        "REQ-006"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "test": "Food preparation surface sanitation",
+        "result": "pass",
+        "evidence_reference": "CLEAN-IND-FEB-01",
+        "recorder_role": "Kitchen Supervisor"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-021",
+      "type": "audit",
+      "occurred_at": "2026-02-20T10:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-WHF-001",
+        "auditor": "Internal Auditor A",
+        "audit_type": "Routine internal audit",
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-005"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-022",
+      "type": "finding",
+      "occurred_at": "2026-02-20T11:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "REC-021",
+        "CTRL-002",
+        "REQ-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-005",
+        "severity": "major",
+        "description": "A chilled poultry delivery was recorded at 8.1°C and accepted without documented disposition.",
+        "evidence": [
+          "RECV-WHF-FEB-01"
+        ],
+        "status": "open",
+        "repeat_finding": false
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-023",
+      "type": "remediation",
+      "occurred_at": "2026-02-21T09:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "FND-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Reinforce chilled delivery inspection and document escalation for unsuitable goods.",
+        "owner_role": "Receiving Supervisor",
+        "due_date": "2026-02-27",
+        "completion_date": "2026-02-26",
+        "status": "completed",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-024",
+      "type": "verification",
+      "occurred_at": "2026-03-03T11:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "REC-023",
+        "FND-005",
+        "CTRL-002"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Review of subsequent chilled delivery records",
+        "records_reviewed": 3,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-WHF-RECV-001"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-025",
+      "type": "policy_change",
+      "occurred_at": "2026-03-15T10:00:00+05:30",
+      "site_id": null,
+      "related_ids": [
+        "REQ-001",
+        "REQ-002",
+        "REQ-003",
+        "REQ-004",
+        "REQ-008",
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-006"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "change_reference": "POL-CHANGE-001",
+        "announcement_date": "2026-03-15",
+        "effective_date": "2026-04-01",
+        "changes": [
+          {
+            "old_requirement": "REQ-001",
+            "new_requirement": "REQ-002",
+            "description": "Additional temperature reading after excursions and equipment interventions."
+          },
+          {
+            "old_requirement": "REQ-003",
+            "new_requirement": "REQ-004",
+            "description": "Mandatory detailed rejection and disposition records."
+          },
+          {
+            "old_requirement": null,
+            "new_requirement": "REQ-008",
+            "description": "Mandatory corrective action effectiveness verification."
+          }
+        ],
+        "affected_sites": [
+          "SITE-001",
+          "SITE-002",
+          "SITE-003"
+        ],
+        "transition_status": "issued_before_effective_date"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-026",
+      "type": "note",
+      "occurred_at": "2026-03-20T14:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-025",
+        "REQ-004",
+        "CTRL-002"
+      ],
+      "source_id": "SRC-004",
+      "facts": {
+        "note": "Receiving team briefed on the upcoming revised rejection documentation procedure.",
+        "attendance_count": 4,
+        "training_record": "TRAIN-KOR-0320",
+        "effective_status": "training_completed_before_effective_date"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-027",
+      "type": "control_test",
+      "occurred_at": "2026-04-05T08:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "test": "Opening refrigerator temperature",
+        "temperature_celsius": 3.7,
+        "result": "pass",
+        "evidence_reference": "TEMP-KOR-APR-01",
+        "additional_excursion_reading": "not_applicable"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-028",
+      "type": "evidence",
+      "occurred_at": "2026-04-12T13:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-002",
+        "REQ-004"
+      ],
+      "source_id": "SRC-004",
+      "facts": {
+        "evidence_reference": "FRESHCO-CHICKEN-REJECT-001",
+        "supplier": "FreshCo Poultry (Fictional)",
+        "item": "Chilled chicken",
+        "batch": "FC-APR12-26",
+        "receiving_temperature_celsius": 8.4,
+        "inspection_result": "rejected",
+        "rejection_reason": "Receiving temperature exceeded illustrative internal acceptance threshold.",
+        "disposition": "Delivery refused and supplier notified.",
+        "receiver_role": "Receiving Supervisor",
+        "required_fields_present": [
+          "supplier",
+          "batch",
+          "item",
+          "temperature",
+          "rejection_reason",
+          "disposition"
+        ],
+        "result": "pass"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-029",
+      "type": "control_test",
+      "occurred_at": "2026-04-18T08:30:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "temperature_celsius": 4.0,
+        "result": "pass",
+        "evidence_reference": "TEMP-IND-APR-01",
+        "additional_excursion_reading": "not_applicable"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-030",
+      "type": "evidence",
+      "occurred_at": "2026-05-03T09:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-003",
+        "REQ-005"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "evidence_reference": "PEST-IND-MAY-01",
+        "inspection_date": "2026-05-03",
+        "result": "pass",
+        "observation": "No visible pest activity recorded.",
+        "next_scheduled_inspection": "2026-05-10"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-031",
+      "type": "audit",
+      "occurred_at": "2026-05-15T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-001",
+        "FND-004",
+        "FND-002",
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-KOR-002",
+        "auditor": "Internal Auditor B",
+        "audit_type": "Follow-up and revised-policy audit",
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-006",
+          "FND-007"
+        ],
+        "previous_findings_reviewed": [
+          "FND-001",
+          "FND-004",
+          "FND-002"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-032",
+      "type": "finding",
+      "occurred_at": "2026-05-15T11:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-031",
+        "CTRL-002",
+        "REQ-004",
+        "REC-028"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-006",
+        "severity": "minor",
+        "description": "One sampled receiving record contained a rejection reason and temperature but did not identify the responsible receiver.",
+        "evidence": [
+          "RECV-KOR-MAY-01"
+        ],
+        "status": "open",
+        "repeat_finding": false
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-033",
+      "type": "finding",
+      "occurred_at": "2026-05-15T11:20:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-031",
+        "CTRL-003",
+        "REQ-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-007",
+        "severity": "minor",
+        "description": "A scheduled weekly pest inspection record was not available for the week of May 4.",
+        "evidence": [
+          "PEST-KOR-MAY-04-MISSING"
+        ],
+        "status": "open",
+        "repeat_finding": true,
+        "recurs_from": "FND-003",
+        "note": "Previous pest finding was recorded at a different site."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-034",
+      "type": "remediation",
+      "occurred_at": "2026-05-16T09:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-006"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Update receiving checklist to require receiver identification.",
+        "owner_role": "Receiving Supervisor",
+        "due_date": "2026-05-22",
+        "completion_date": "2026-05-21",
+        "status": "completed",
+        "completion_evidence": "RECV-CHECKLIST-KOR-V2",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-035",
+      "type": "remediation",
+      "occurred_at": "2026-05-16T09:30:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-007"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Reinstate weekly pest inspection and submit missing evidence where available.",
+        "owner_role": "Facilities Supervisor",
+        "due_date": "2026-05-20",
+        "completion_date": null,
+        "status": "overdue",
+        "verification_status": "not_verified"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-036",
+      "type": "verification",
+      "occurred_at": "2026-05-27T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-034",
+        "FND-006",
+        "CTRL-002"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Review of subsequent receiving entries",
+        "records_reviewed": 5,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-KOR-RECV-002"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-037",
+      "type": "control_test",
+      "occurred_at": "2026-06-02T08:30:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "temperature_celsius": 3.9,
+        "result": "pass",
+        "evidence_reference": "TEMP-WHF-JUN-01"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-038",
+      "type": "control_test",
+      "occurred_at": "2026-06-10T09:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-002",
+        "REQ-004"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "test": "Chilled poultry receiving",
+        "supplier": "FreshCo Poultry",
+        "temperature_celsius": 4.2,
+        "result": "pass",
+        "evidence_reference": "RECV-WHF-JUN-01",
+        "batch": "FC-JUN10-26"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-039",
+      "type": "audit",
+      "occurred_at": "2026-06-20T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004",
+        "CTRL-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-IND-002",
+        "auditor": "Internal Auditor A",
+        "audit_type": "Quarterly internal audit",
+        "result": "Fail",
+        "finding_ids": [
+          "FND-008",
+          "FND-009"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-040",
+      "type": "finding",
+      "occurred_at": "2026-06-20T11:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-039",
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-008",
+        "severity": "major",
+        "description": "Sampled closing refrigerator readings were missing on multiple operating days after the revised policy became effective.",
+        "evidence": [
+          "TEMP-IND-JUN-01"
+        ],
+        "status": "open",
+        "repeat_finding": false,
+        "evidence_gap_type": "missing"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-041",
+      "type": "finding",
+      "occurred_at": "2026-06-20T11:30:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-039",
+        "CTRL-003",
+        "REQ-005",
+        "FND-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-009",
+        "severity": "minor",
+        "description": "Weekly pest inspection evidence was incomplete for two sampled weeks.",
+        "evidence": [
+          "PEST-IND-JUN-01"
+        ],
+        "status": "open",
+        "repeat_finding": true,
+        "recurs_from": "FND-003"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-042",
+      "type": "remediation",
+      "occurred_at": "2026-06-21T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "FND-008"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Implement opening and closing temperature sign-off by shift supervisors.",
+        "owner_role": "Operations Supervisor",
+        "due_date": "2026-06-27",
+        "completion_date": null,
+        "status": "overdue",
+        "verification_status": "not_verified"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-043",
+      "type": "remediation",
+      "occurred_at": "2026-06-21T10:30:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "FND-009"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Engage pest-control provider and introduce a weekly register review.",
+        "owner_role": "Facilities Supervisor",
+        "due_date": "2026-06-28",
+        "completion_date": "2026-06-26",
+        "status": "completed",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-044",
+      "type": "verification",
+      "occurred_at": "2026-07-03T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-043",
+        "FND-009",
+        "CTRL-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Follow-up register review",
+        "records_reviewed": 1,
+        "result": "partially_effective",
+        "finding_status": "open",
+        "evidence_reference": "VERIFY-IND-JUL-01",
+        "limitation": "Only one subsequent weekly record was available; longer-term effectiveness not established."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-045",
+      "type": "control_test",
+      "occurred_at": "2026-07-12T09:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "temperature_celsius": 3.4,
+        "result": "pass",
+        "evidence_reference": "TEMP-KOR-JUL-01"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-046",
+      "type": "evidence",
+      "occurred_at": "2026-07-18T15:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-004",
+        "REQ-006"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "evidence_reference": "CLEAN-WHF-JUL-01",
+        "description": "Daily cleaning checklist available and signed for sampled dates.",
+        "records_reviewed": 7,
+        "result": "pass",
+        "limitation": "No independent surface inspection measurement attached."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-047",
+      "type": "note",
+      "occurred_at": "2026-08-01T10:00:00+05:30",
+      "site_id": null,
+      "related_ids": [
+        "CTRL-006",
+        "REQ-008"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "note": "Internal audit team issued a reminder that actions marked completed must remain open until effectiveness verification is recorded.",
+        "communication_reference": "AUDIT-COMM-2026-08-01",
+        "scope": "All three sites"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-048",
+      "type": "audit",
+      "occurred_at": "2026-08-12T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-007",
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004",
+        "CTRL-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-KOR-003",
+        "auditor": "Internal Auditor A",
+        "audit_type": "Follow-up audit",
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-010"
+        ],
+        "previous_findings_reviewed": [
+          "FND-007",
+          "FND-001",
+          "FND-004"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-049",
+      "type": "finding",
+      "occurred_at": "2026-08-12T11:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-048",
+        "CTRL-003",
+        "REQ-005",
+        "FND-007"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-010",
+        "severity": "major",
+        "description": "The overdue pest-control remediation remained without completion evidence. A subsequent weekly inspection record was also unavailable.",
+        "evidence": [
+          "REC-035",
+          "PEST-KOR-AUG-01-MISSING"
+        ],
+        "status": "open",
+        "repeat_finding": true,
+        "recurs_from": "FND-007"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-050",
+      "type": "remediation",
+      "occurred_at": "2026-08-13T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "FND-010",
+        "REC-035"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Restore the weekly pest inspection schedule and obtain inspection documentation from the service provider.",
+        "owner_role": "Facilities Manager",
+        "due_date": "2026-08-20",
+        "completion_date": "2026-08-19",
+        "status": "completed",
+        "completion_evidence": "PEST-KOR-AUG-19",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-051",
+      "type": "verification",
+      "occurred_at": "2026-08-27T10:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "REC-050",
+        "FND-010",
+        "CTRL-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Inspection and subsequent register review",
+        "records_reviewed": 2,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-KOR-AUG-01"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-052",
+      "type": "control_test",
+      "occurred_at": "2026-09-05T08:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "temperature_celsius": 4.1,
+        "result": "pass",
+        "evidence_reference": "TEMP-IND-SEP-01",
+        "limitation": "Only opening reading supplied; closing reading not present."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-053",
+      "type": "evidence",
+      "occurred_at": "2026-09-10T12:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-002",
+        "REQ-004"
+      ],
+      "source_id": "SRC-004",
+      "facts": {
+        "evidence_reference": "RECV-WHF-SEP-01",
+        "description": "Receiving register contains an entry for chilled goods, but the batch number field is blank.",
+        "supplier": "FreshCo Poultry",
+        "temperature_celsius": 3.9,
+        "result": "incomplete",
+        "evidence_gap_type": "incomplete"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-054",
+      "type": "control_test",
+      "occurred_at": "2026-09-15T10:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "CTRL-005",
+        "REQ-007"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "test": "Employee hygiene observation",
+        "result": "pass",
+        "evidence_reference": "HYGIENE-WHF-SEP-01",
+        "observation": "Sampled food handlers followed the observed handwashing and protective clothing procedure."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-055",
+      "type": "note",
+      "occurred_at": "2026-09-22T11:00:00+05:30",
+      "site_id": "SITE-003",
+      "related_ids": [
+        "REC-053",
+        "CTRL-002",
+        "REQ-004"
+      ],
+      "source_id": "SRC-004",
+      "facts": {
+        "note": "Receiving supervisor stated that the batch number was available on the supplier invoice. The invoice was not attached to the audit evidence package.",
+        "statement_reference": "NOTE-WHF-SEP-22",
+        "supporting_document": null,
+        "status": "unverified_claim"
+      },
+      "confidence": "uncertain"
+    },
+    {
+      "id": "REC-056",
+      "type": "audit",
+      "occurred_at": "2026-10-05T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "FND-008",
+        "FND-009",
+        "CTRL-001",
+        "CTRL-002",
+        "CTRL-003",
+        "CTRL-004",
+        "CTRL-005"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "audit_reference": "AUD-IND-003",
+        "auditor": "Internal Auditor B",
+        "audit_type": "Corrective action follow-up audit",
+        "result": "Conditional pass",
+        "finding_ids": [
+          "FND-011"
+        ],
+        "previous_findings_reviewed": [
+          "FND-008",
+          "FND-009"
+        ]
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-057",
+      "type": "finding",
+      "occurred_at": "2026-10-05T11:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-056",
+        "CTRL-001",
+        "REQ-002",
+        "FND-008"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "finding_id": "FND-011",
+        "severity": "major",
+        "description": "Closing temperature entries remained missing in the sampled records. The corrective action assigned to the previous finding was overdue and no completion evidence was available.",
+        "evidence": [
+          "REC-042",
+          "TEMP-IND-OCT-01"
+        ],
+        "status": "open",
+        "repeat_finding": true,
+        "recurs_from": "FND-008"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-058",
+      "type": "remediation",
+      "occurred_at": "2026-10-06T09:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "FND-011",
+        "REC-042"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "action": "Introduce mandatory electronic opening and closing temperature sign-off with daily manager review.",
+        "owner_role": "Site Operations Manager",
+        "due_date": "2026-10-12",
+        "completion_date": "2026-10-11",
+        "status": "completed",
+        "completion_evidence": "TEMP-IND-OCT-REVISED",
+        "verification_status": "pending"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-059",
+      "type": "verification",
+      "occurred_at": "2026-10-18T10:00:00+05:30",
+      "site_id": "SITE-002",
+      "related_ids": [
+        "REC-058",
+        "FND-011",
+        "CTRL-001"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "verification_method": "Review of opening and closing electronic temperature records",
+        "records_reviewed": 7,
+        "result": "effective",
+        "finding_status": "closed",
+        "evidence_reference": "VERIFY-IND-OCT-01",
+        "limitation": "Effectiveness established for the sampled seven-day period only."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-060",
+      "type": "evidence",
+      "occurred_at": "2026-10-22T12:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-003",
+        "REQ-005"
+      ],
+      "source_id": "SRC-001",
+      "facts": {
+        "evidence_reference": "PEST-KOR-OCT-01",
+        "description": "Weekly pest inspection records available for the sampled October weeks.",
+        "records_reviewed": 3,
+        "result": "pass"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-061",
+      "type": "control_test",
+      "occurred_at": "2026-10-24T09:00:00+05:30",
+      "site_id": "SITE-001",
+      "related_ids": [
+        "CTRL-001",
+        "REQ-002"
+      ],
+      "source_id": "SRC-002",
+      "facts": {
+        "temperature_celsius": 4.3,
+        "result": "pass",
+        "evidence_reference": "TEMP-KOR-OCT-01"
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "REC-062",
+      "type": "note",
+      "occurred_at": "2026-10-31T16:00:00+05:30",
+      "site_id": null,
+      "related_ids": [
+        "SITE-001",
+        "SITE-002",
+        "SITE-003"
+      ],
+      "source_id": "SRC-003",
+      "facts": {
+        "note": "Dataset cutoff. No additional records after this date are included. Missing evidence must not be interpreted as evidence of successful or failed operations.",
+        "reporting_period_end": "2026-10-31",
+        "audit_preparation_reference": "NORTHWIND-NOV-2026"
+      },
+      "confidence": "documented"
+    }
+  ],
+  "evaluation_cases": [
+    {
+      "id": "EVAL-001",
+      "category": "recurrence_detection",
+      "user_question": "What refrigerator temperature problems have occurred at the Koramangala outlet, and were they resolved permanently?",
+      "relevant_record_ids": [
+        "REC-002",
+        "REC-003",
+        "REC-005",
+        "REC-007",
+        "REC-009",
+        "REC-016",
+        "REC-017",
+        "REC-018",
+        "REC-019",
+        "REC-061"
+      ],
+      "essential_expected_answer_points": [
+        "A temperature of 7.4°C was recorded on 2025-11-18.",
+        "The first corrective action was completed and verified effective on 2025-12-08.",
+        "A subsequent reading of 6.8°C occurred on 2026-01-18, resulting in a repeat finding.",
+        "The thermostat replacement was completed late on 2026-01-30.",
+        "The follow-up reading of 3.5°C was verified effective on 2026-02-02.",
+        "A further October reading of 4.3°C passed.",
+        "The available evidence demonstrates successful sampled follow-ups, not guaranteed permanent prevention."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The refrigerator never failed again.",
+        "All temperature records for the entire year passed.",
+        "The exact root cause was established before the thermostat replacement."
+      ]
+    },
+    {
+      "id": "EVAL-002",
+      "category": "policy_versioning",
+      "user_question": "Which refrigerator temperature requirement applied on March 20, 2026, and which requirement applied on April 5, 2026?",
+      "relevant_record_ids": [
+        "REC-025",
+        "REC-026",
+        "REC-027"
+      ],
+      "essential_expected_answer_points": [
+        "REQ-001 applied on March 20, 2026.",
+        "REQ-002 became effective on April 1, 2026.",
+        "The revised requirement applied on April 5, 2026.",
+        "The revised policy added a reading after excursions or equipment interventions.",
+        "The temperature range remained 0°C to 5°C under the illustrative internal standard.",
+        "The March 15 announcement did not make the revised policy effective before April 1."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The revised requirement applied retroactively.",
+        "The April policy was an Indian statutory amendment.",
+        "The March 20 event violated the revised policy."
+      ]
+    },
+    {
+      "id": "EVAL-003",
+      "category": "corrective_action_tracking",
+      "user_question": "Which Koramangala corrective action was still overdue in May 2026, and what happened afterward?",
+      "relevant_record_ids": [
+        "REC-033",
+        "REC-035",
+        "REC-049",
+        "REC-050",
+        "REC-051"
+      ],
+      "essential_expected_answer_points": [
+        "The pest inspection remediation associated with FND-007 was overdue.",
+        "Its owner role was Facilities Supervisor.",
+        "The due date was May 20, 2026.",
+        "No completion date was initially recorded.",
+        "The August audit identified a continuing issue.",
+        "A revised remediation was completed on August 19.",
+        "Verification on August 27 found the sampled remediation effective.",
+        "The finding was then closed."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The May action was completed on time.",
+        "Pest activity was confirmed merely because inspection evidence was missing.",
+        "The missing May inspection definitely never occurred."
+      ]
+    },
+    {
+      "id": "EVAL-004",
+      "category": "audit_readiness",
+      "user_question": "Is the Indiranagar outlet ready for an audit at the end of October 2026?",
+      "relevant_record_ids": [
+        "REC-039",
+        "REC-040",
+        "REC-041",
+        "REC-042",
+        "REC-043",
+        "REC-044",
+        "REC-056",
+        "REC-057",
+        "REC-058",
+        "REC-059"
+      ],
+      "essential_expected_answer_points": [
+        "The June audit identified major temperature-monitoring and minor pest-record findings.",
+        "The temperature corrective action was overdue in June and again unresolved at the October audit.",
+        "The October audit recorded a repeat major finding.",
+        "The temperature remediation was subsequently completed on October 11.",
+        "Seven days of records were reviewed during verification.",
+        "Verification on October 18 was effective for the sampled period.",
+        "The pest remediation was completed in June but only partially effective during the July verification.",
+        "Longer-term pest-control effectiveness remains unverified in the supplied records.",
+        "The site should be considered conditionally ready, with a need for additional pest-control evidence and continued temperature monitoring."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The site has no outstanding risks.",
+        "The temperature finding was permanently resolved.",
+        "Pest-control compliance was fully verified.",
+        "The outlet is legally compliant."
+      ]
+    },
+    {
+      "id": "EVAL-005",
+      "category": "conflicting_evidence",
+      "user_question": "Does the Whitefield September receiving record prove that the FreshCo chicken batch was correctly documented?",
+      "relevant_record_ids": [
+        "REC-038",
+        "REC-053",
+        "REC-055"
+      ],
+      "essential_expected_answer_points": [
+        "The September record contains a temperature of 3.9°C.",
+        "The batch number field is blank in the supplied record.",
+        "The supervisor stated that the batch number was available on the supplier invoice.",
+        "The invoice was not attached to the evidence package.",
+        "The record therefore remains incomplete based on available documentary evidence.",
+        "The correct next step is to request and inspect the original invoice."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The batch number is definitely documented.",
+        "The supplier invoice definitely does not exist.",
+        "The receiving process definitely failed operationally.",
+        "The missing batch number can be reconstructed or invented."
+      ]
+    },
+    {
+      "id": "EVAL-006",
+      "category": "cross_site_pattern",
+      "user_question": "Has pest-control documentation been a recurring problem across Northwind locations?",
+      "relevant_record_ids": [
+        "REC-012",
+        "REC-014",
+        "REC-033",
+        "REC-035",
+        "REC-041",
+        "REC-044",
+        "REC-049",
+        "REC-051",
+        "REC-060"
+      ],
+      "essential_expected_answer_points": [
+        "Indiranagar had a pest inspection evidence gap in December 2025.",
+        "That finding was verified effective in December.",
+        "Koramangala had a separate missing weekly record in May 2026.",
+        "Koramangala had a further pest-control documentation issue in August.",
+        "The Koramangala August remediation was verified effective for the sampled period.",
+        "The evidence indicates recurring documentation weaknesses across two sites.",
+        "Whitefield does not have a documented pest-control failure in the supplied records."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "All three sites have pest infestations.",
+        "The same individual caused every failure.",
+        "The same root cause was established across sites."
+      ]
+    },
+    {
+      "id": "EVAL-007",
+      "category": "receiving_rejection",
+      "user_question": "What evidence is available for the FreshCo chicken rejection at Koramangala in April 2026?",
+      "relevant_record_ids": [
+        "REC-025",
+        "REC-028",
+        "REC-032",
+        "REC-034",
+        "REC-036"
+      ],
+      "essential_expected_answer_points": [
+        "The event occurred on April 12, 2026.",
+        "The supplier was FreshCo Poultry.",
+        "The recorded batch was FC-APR12-26.",
+        "The recorded receiving temperature was 8.4°C.",
+        "The delivery was rejected and refused.",
+        "The supplier was notified.",
+        "The rejection record includes the key fields required under REQ-004.",
+        "The record is evidence of an individual rejection event, not proof that all deliveries were properly inspected."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The rejected chicken entered production.",
+        "The supplier was permanently suspended.",
+        "All FreshCo deliveries were unsuitable."
+      ]
+    },
+    {
+      "id": "EVAL-008",
+      "category": "control_coverage",
+      "user_question": "Which controls have insufficient evidence or have not been adequately tested by October 31, 2026?",
+      "relevant_record_ids": [
+        "REC-001",
+        "REC-010",
+        "REC-015",
+        "REC-020",
+        "REC-027",
+        "REC-029",
+        "REC-037",
+        "REC-038",
+        "REC-046",
+        "REC-052",
+        "REC-053",
+        "REC-054",
+        "REC-061"
+      ],
+      "essential_expected_answer_points": [
+        "Temperature monitoring has multiple successful samples but incomplete daily coverage.",
+        "Indiranagar September has only an opening reading in the supplied evidence.",
+        "Receiving evidence at Whitefield contains an incomplete September record.",
+        "Cleaning has documented sampled evidence at Whitefield.",
+        "Hygiene has a documented September observation at Whitefield.",
+        "The dataset does not contain sufficient evidence to claim every control was tested consistently at every site.",
+        "Evidence availability must be evaluated by site, control, date, and applicable requirement version."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "Every unrepresented control failed.",
+        "Every unrepresented control passed.",
+        "A single successful sample proves year-round compliance."
+      ]
+    },
+    {
+      "id": "EVAL-009",
+      "category": "evidence_gap_classification",
+      "user_question": "What is the difference between the missing Indiranagar closing temperature readings and the incomplete Whitefield receiving record?",
+      "relevant_record_ids": [
+        "REC-040",
+        "REC-052",
+        "REC-053",
+        "REC-055"
+      ],
+      "essential_expected_answer_points": [
+        "Indiranagar has missing closing temperature entries for sampled dates.",
+        "Whitefield has a receiving record, but the batch number field is blank.",
+        "The first is a missing evidence gap.",
+        "The second is an incomplete evidence gap.",
+        "Whitefield also has an unverified statement about an invoice.",
+        "Both require additional evidence or documented clarification."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "Both records are identical evidence failures.",
+        "Missing evidence proves that an activity never occurred.",
+        "A verbal statement is equivalent to verified documentary evidence."
+      ]
+    },
+    {
+      "id": "EVAL-010",
+      "category": "severity_prioritization",
+      "user_question": "What are the highest-priority outstanding audit concerns across the three sites at the dataset cutoff?",
+      "relevant_record_ids": [
+        "REC-032",
+        "REC-033",
+        "REC-035",
+        "REC-049",
+        "REC-050",
+        "REC-051",
+        "REC-053",
+        "REC-055",
+        "REC-057",
+        "REC-058",
+        "REC-059"
+      ],
+      "essential_expected_answer_points": [
+        "Indiranagar's repeated major temperature-monitoring issue is the highest-priority historical concern.",
+        "The October corrective action was verified effective for seven sampled days.",
+        "Koramangala's August pest-control remediation was verified effective for sampled records.",
+        "Whitefield has an incomplete receiving record requiring the missing invoice or batch evidence.",
+        "Open findings and unverified evidence must be distinguished from verified closed findings.",
+        "Priority should consider severity, recurrence, current status, and evidence completeness."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "All historical major findings remain open.",
+        "All three outlets have identical risk levels.",
+        "A closed finding means the underlying control can never fail again."
+      ]
+    },
+    {
+      "id": "EVAL-011",
+      "category": "historical_rule_application",
+      "user_question": "Should the February 20 Whitefield poultry receiving event be assessed using the revised April receiving documentation requirement?",
+      "relevant_record_ids": [
+        "REC-021",
+        "REC-022",
+        "REC-023",
+        "REC-024",
+        "REC-025"
+      ],
+      "essential_expected_answer_points": [
+        "The receiving event occurred on February 20, 2026.",
+        "REQ-003 was applicable at that time.",
+        "REQ-004 became effective on April 1, 2026.",
+        "The event must be evaluated against the requirement effective on its occurrence date.",
+        "The original finding concerned an above-limit temperature and missing disposition documentation.",
+        "The corrective action was verified effective on March 3."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "The February event violated a requirement that was not yet effective.",
+        "The April requirement applies retroactively.",
+        "The event did not require any corrective action."
+      ]
+    },
+    {
+      "id": "EVAL-012",
+      "category": "evidence_based_summary",
+      "user_question": "Prepare a concise evidence-based audit-readiness summary for all Northwind outlets as of October 31, 2026.",
+      "relevant_record_ids": [
+        "REC-025",
+        "REC-028",
+        "REC-031",
+        "REC-033",
+        "REC-035",
+        "REC-039",
+        "REC-040",
+        "REC-041",
+        "REC-044",
+        "REC-048",
+        "REC-049",
+        "REC-050",
+        "REC-051",
+        "REC-053",
+        "REC-055",
+        "REC-056",
+        "REC-057",
+        "REC-058",
+        "REC-059",
+        "REC-060",
+        "REC-061",
+        "REC-062"
+      ],
+      "essential_expected_answer_points": [
+        "Identify the three sites and the reporting period.",
+        "State that requirements are fictional internal policies rather than legal requirements.",
+        "Koramangala: October temperature sample passed; August pest remediation verified effective; historical recurring pest documentation findings should be acknowledged.",
+        "Indiranagar: recurring temperature logging issue was recorded in October; the October remediation was verified effective for seven sampled days; pest-control effectiveness remains partially established.",
+        "Whitefield: June temperature and receiving samples passed; September receiving evidence remains incomplete because batch documentation is missing from the package.",
+        "Prioritize obtaining the Whitefield invoice, continuing Indiranagar temperature monitoring, and obtaining additional pest-control verification.",
+        "Clearly distinguish completed actions, verified actions, open findings, and evidence gaps.",
+        "Cite record IDs for every significant conclusion.",
+        "State that the dataset is synthetic and cannot demonstrate actual legal compliance."
+      ],
+      "unsupported_conclusions_to_avoid": [
+        "All outlets are fully audit-ready.",
+        "All controls were tested throughout the year.",
+        "No food-safety incidents occurred.",
+        "The company is legally compliant.",
+        "A missing record proves that the underlying activity did not happen."
+      ]
+    }
+  ]
+}
