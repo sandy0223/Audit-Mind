@@ -29,6 +29,7 @@ Restaurant groups fail audits for the exact same reasons again and again: the sa
 ```mermaid
 flowchart TD
     subgraph Client ["Team Touchpoints"]
+<<<<<<< HEAD
         A["Manager / Auditor<br/>Band Desktop Room"]
         B["Local Terminal<br/>Interactive CLI"]
     end
@@ -41,12 +42,27 @@ flowchart TD
 
     subgraph Memory ["Vectorize Hindsight Bank"]
         F[("Single Group Bank<br/>spice-route-compliance<br/>Historical checks & fixes")]
+=======
+        A["Manager / Auditor\n(Band Desktop Room)"]
+        B["Local Terminal\n(Interactive CLI)"]
+    end
+
+    subgraph Core ["AuditMind Agent Loop (agent.ts)"]
+        C["1. RECALL\nFetch Relevant Memory"]
+        D["2. THINK & ACT\nGroq LLM (gpt-oss-120b)"]
+        E["3. RETAIN\nStore Interaction"]
+    end
+
+    subgraph Memory ["Vectorize Hindsight Bank"]
+        F[("Single Group Bank\n(spice-route-compliance)\n• Historical checks\n• Fix outcomes\n• Policy versions")]
+>>>>>>> a36b2820ed6c1efcfc661f9071b9343f4aefc46f
     end
 
     subgraph ToolLayer ["8 Specialized Tools (tools.ts)"]
         G["log_temperature_check"]
         H["log_delivery"]
         I["record_fix_outcome"]
+<<<<<<< HEAD
         K["prepare_audit"]
         L["risk_briefing"]
     end
@@ -59,6 +75,20 @@ flowchart TD
     ToolLayer <-->|Retain / Recall / Reflect| F
     D --> E
     E -->|Save interaction| F
+=======
+        K["prepare_audit (reflect)"]
+        L["risk_briefing (reflect)"]
+    end
+
+    A -->|@AuditMind| C
+    B -->|User message| C
+    C <-->|Query relevant history| F
+    C --> D
+    D <-->|Tool Execution Loop| ToolLayer
+    ToolLayer <-->|Retain / Recall / Reflect| F
+    D --> E
+    E -->|Write back learning| F
+>>>>>>> a36b2820ed6c1efcfc661f9071b9343f4aefc46f
     D -->|Verified Answer| A
     D -->|Verified Answer| B
 ```
