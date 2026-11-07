@@ -47,6 +47,7 @@ export async function chat(messages: ChatMessage[], tools?: ToolSpec[], attempt 
     headers: {
       Authorization: `Bearer ${config.groq.apiKey}`,
       "Content-Type": "application/json",
+      "User-Agent": "AuditMind/1.0",
     },
     body: JSON.stringify({
       model: config.groq.model,
@@ -66,11 +67,13 @@ export async function chat(messages: ChatMessage[], tools?: ToolSpec[], attempt 
 
   if (res.status === 429 && attempt < 4) {
     const wait = Number(res.headers.get("retry-after")) * 1000 || 2000 * (attempt + 1);
+    console.warn(`[llm] Rate limit (429) hit. Waiting ${Math.round(wait / 1000)}s before retry ${attempt + 1}/4...`);
     await sleep(wait);
     return chat(messages, tools, attempt + 1);
   }
 
   if (res.status === 400 && body.includes("tool_use_failed") && attempt < 2) {
+    console.warn(`[llm] Malformed tool call from model (attempt ${attempt + 1}). Retrying with guidance...`);
     // The model produced a broken tool call. Retry, and on the last attempt drop tools
     // entirely so the user still gets a plain-text answer instead of an error.
     const retryTools = attempt === 1 ? undefined : tools;

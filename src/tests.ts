@@ -5,6 +5,7 @@
  *   npm run test
  */
 import { normalizeOutlet, OUTLETS } from "./config.js";
+import { stripMention } from "./band.js";
 
 let passed = 0;
 let failed = 0;
@@ -43,6 +44,14 @@ assert("has 3 outlets",                  OUTLETS.length,                   3);
 assert("contains Indiranagar",           OUTLETS.includes("Indiranagar"),  true);
 assert("contains Koramangala",           OUTLETS.includes("Koramangala"),  true);
 assert("contains HSR Layout",            OUTLETS.includes("HSR Layout"),   true);
+
+// --- stripMention ---
+console.log("\nstripMention:");
+assert("leading @AuditMind mention",     stripMention("@AuditMind fridge at 7°C"),          "fridge at 7°C");
+assert("trailing agent mention",         stripMention("hi @thesbcode/test"),                "hi");
+assert("mention with colon prefix",      stripMention("@thesbcode/auditmind: check fridge"),"check fridge");
+assert("bare mention returns empty",     stripMention("@thesbcode/test"),                   "");
+assert("slack/band xml mention tag",     stripMention("<@U123456> what is the status?"),    "what is the status?");
 
 // --- Temperature limit logic (inline, since limitFor is not exported) ---
 console.log("\nTemperature breach logic (inline):");

@@ -94,7 +94,7 @@ export async function recall(query: string, opts: { budget?: "low" | "mid" | "hi
   trace("RECALL", query);
   const response = await client.recall(bankId, query, {
     budget: opts.budget ?? "mid",
-    maxTokens: opts.maxTokens ?? 2048,
+    maxTokens: opts.maxTokens ?? 1024,
   });
   const texts = (response.results ?? []).map((r) => r.text).filter(Boolean);
   trace("RECALL", `→ ${texts.length} memories`);

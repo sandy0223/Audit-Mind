@@ -77,7 +77,8 @@ export async function handleMessage(msg: IncomingMessage): Promise<string> {
   const history = sessions.get(conversationId) ?? [];
 
   // 1. RECALL
-  const memories = memoryEnabled() ? await recall(`${sender}: ${msg.text}`) : [];
+  const allMemories = memoryEnabled() ? await recall(`${sender}: ${msg.text}`) : [];
+  const memories = allMemories.slice(0, 15);
   const memoryBlock = memoryEnabled()
     ? memories.length
       ? `Relevant memories from Hindsight (most relevant first):\n${memories.map((m) => `- ${m}`).join("\n")}`
