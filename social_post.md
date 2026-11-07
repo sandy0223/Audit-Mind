@@ -1,40 +1,42 @@
 # LinkedIn / Social Post
 
 > [!NOTE]
-> Conforms strictly to **Prompt 3** from the Hackathon Content Guide:
-> - Written in the voice/style of Andrej Karpathy (direct, technical, hands-on, slightly opinionated).
-> - **Zero mentions** of the word "hackathon" (to prevent disqualification).
-> - Under 800 characters total.
-> - First 2 lines contain no links or hashtags.
-> - Mandatory hashtags on the final line only.
+> Conforms to Prompt 3 of the official Content Submission Guide:
+> - Karpathy voice: direct, technical, slightly opinionated.
+> - The copy-paste block below contains **zero** occurrences of the disqualified word.
+> - **Under 800 characters** (repo link included).
+> - First 2 lines: no links, no hashtags.
+> - Hashtags on the final line only (5 of them).
+> - Includes the project repo link in the main post body (Step 5 of the guide).
 
 ---
 
 ### Copy-Paste Post Text
 
 ```text
-The dirty secret of "autonomous agents" is that almost none of them remember when their own advice fails.
+Most "autonomous agents" forget the moment their own advice fails.
 
-If an LLM suggests swapping a fridge thermometer, and morning readings stay at 7.2°C, it will happily suggest swapping the thermometer again tomorrow.
+If an LLM suggests swapping a fridge thermometer and the readings stay at 7.2°C, it suggests swapping the thermometer again tomorrow.
 
-We built AuditMind to fix this using Hindsight agent memory:
+We built AuditMind with Hindsight agent memory to fix that:
 
-• Fix outcomes as 1st-class records: "action completed" != "action worked". It remembers what failed and never repeats dead-end fixes.
-• Before vs After: A stateless LLM gives generic FSSAI checklists. With Hindsight, it ranks real audit risks from past citations and 6-day log gaps.
-• Cross-site pattern extraction: 1 shared bank across 3 branches spotted that night deliveries consistently arrive warm.
+• Fix outcomes are 1st-class records: "completed" != "worked". It never repeats a dead-end fix.
+• Before: generic checklist. After: ranked risks from this outlet's real audit citations and log gaps.
+• One shared bank across 3 branches surfaced a supplier pattern no single branch could see.
 
-Stateful memory is the real moat.
+Stateful memory is the moat.
+
+Repo: https://github.com/sandy0223/Audit-Mind
 
 #AIAgents #AgentMemory #Hindsight #LLM #AI
 ```
 
 ---
 
-### First Comment to Post Under Your Update
-*(The Content Guide asks you to post your article URL and the Hindsight repository as the first comment)*
+### Posting sequence
 
-```text
-Read the full deep-dive article on building episodic agent memory here: [INSERT YOUR ARTICLE LINK]
-
-Check out Hindsight on GitHub: https://github.com/vectorize-io/hindsight
-```
+1. **Main post** → paste the block above, publish.
+2. **First comment** → your published article URL:
+   `Read the full write-up: [YOUR MEDIUM ARTICLE URL]`
+3. **Second comment** → Hindsight repo (guide Step 6):
+   `Want to see the memory engine behind it? Here's the repo: https://github.com/vectorize-io/hindsight`

@@ -6,7 +6,7 @@
 [![Memory: Hindsight](https://img.shields.io/badge/Memory-Vectorize%20Hindsight-008080.svg)](https://hindsight.vectorize.io/)
 [![LLM: Groq](https://img.shields.io/badge/LLM-Groq%20(gpt--oss--120b)-F55036.svg)](https://groq.com/)
 [![Chat: Band AI](https://img.shields.io/badge/Platform-Band%20AI%20Desktop-7C3AED.svg)](https://www.band.ai/)
-[![Tests](https://img.shields.io/badge/Tests-24%2F24%20Passing-success.svg)](#-testing--verification)
+[![Tests](https://img.shields.io/badge/Tests-29%2F29%20Passing-success.svg)](#-testing--verification)
 
 ---
 
@@ -214,7 +214,7 @@ weekly risk briefing
 AuditMind includes zero-dependency smoke tests validating pure business logic (outlet normalization, FSSAI temperature thresholds, and breach detection):
 
 ```bash
-# Run test suite (24/24 passing)
+# Run test suite (29/29 passing)
 npm test
 
 # Verify TypeScript types

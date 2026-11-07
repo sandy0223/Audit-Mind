@@ -1,10 +1,16 @@
 # 🎥 3-Minute Demo Video Script & YouTube Assets
 
 > [!NOTE]
-> Conforms to **Prompt 5** and **Prompt 6** of the Hackathon Content Guide.
+> Conforms to **Prompt 5** and **Prompt 6** of the Content Submission Guide.
 > - Length: ~3 minutes (ideal for YouTube / screen recording).
 > - Style: Conversational, screen recording with voiceover (optional talking head).
 > - Includes exact screen cues, terminal commands, and 5 click-worthy YouTube titles.
+
+> [!IMPORTANT]
+> **Prerequisite before recording:** the demo bank must contain the 6-week planted-pattern
+> data (`npm run seed`), otherwise steps 3–8 will not produce the responses scripted below.
+> Run `npm run seed -- --dry-run` first to preview, and see `demo_runbook.md` for the
+> full preflight checklist.
 
 ---
 
