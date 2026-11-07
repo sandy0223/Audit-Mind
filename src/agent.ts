@@ -4,7 +4,7 @@ import { memoryEnabled, recall, retain } from "./memory.js";
 import { runTool, toolSpecs } from "./tools.js";
 
 const MAX_TOOL_ROUNDS = 6;
-const SESSION_WINDOW = 12; // short-term context per room; long-term lives in Hindsight
+const SESSION_WINDOW = 12;
 
 function systemPrompt(): string {
   const today = nowIST().slice(0, 10);
