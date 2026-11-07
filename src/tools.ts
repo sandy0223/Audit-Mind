@@ -24,7 +24,7 @@ function isBreach(reading: number, limit: Limit): boolean {
   return limit.kind === "max" ? reading > limit.value : reading < limit.value;
 }
 
-const outletEnum = { type: "string", enum: [...OUTLETS] };
+const outletEnum = { type: ["string", "null"], enum: [...OUTLETS, null] };
 
 function stamp(): string {
   return nowIST();
@@ -55,8 +55,8 @@ export const toolSpecs: ToolSpec[] = [
           outlet: outletEnum,
           equipment: { type: "string", description: "e.g. 'walk-in fridge', 'reach-in fridge 2', 'freezer', 'bain-marie'" },
           reading_c: { type: "number", description: "Temperature in °C" },
-          recorded_by: { type: "string" },
-          shift: { type: "string", enum: ["morning", "day", "night"] },
+          recorded_by: { type: ["string", "null"] },
+          shift: { type: ["string", "null"], enum: ["morning", "day", "night", null] },
         },
         required: ["outlet", "equipment", "reading_c"],
       },
@@ -73,10 +73,10 @@ export const toolSpecs: ToolSpec[] = [
           outlet: outletEnum,
           supplier: { type: "string" },
           item: { type: "string" },
-          temp_c: { type: "number", description: "Temperature on arrival in °C (omit for ambient dry goods)" },
+          temp_c: { type: ["number", "null"], description: "Temperature on arrival in °C (omit for ambient dry goods)" },
           accepted: { type: "boolean" },
-          received_by: { type: "string" },
-          shift: { type: "string", enum: ["morning", "day", "night"] },
+          received_by: { type: ["string", "null"] },
+          shift: { type: ["string", "null"], enum: ["morning", "day", "night", null] },
         },
         required: ["outlet", "supplier", "item", "accepted"],
       },
@@ -93,7 +93,7 @@ export const toolSpecs: ToolSpec[] = [
           outlet: outletEnum,
           issue: { type: "string" },
           action: { type: "string" },
-          owner: { type: "string" },
+          owner: { type: ["string", "null"] },
         },
         required: ["outlet", "issue", "action"],
       },
@@ -111,7 +111,7 @@ export const toolSpecs: ToolSpec[] = [
           issue: { type: "string" },
           action: { type: "string", description: "The corrective action being evaluated" },
           worked: { type: "boolean" },
-          evidence: { type: "string", description: "e.g. 'readings 3-4°C for 7 days'" },
+          evidence: { type: ["string", "null"], description: "e.g. 'readings 3-4°C for 7 days'" },
         },
         required: ["outlet", "issue", "action", "worked"],
       },
@@ -127,7 +127,7 @@ export const toolSpecs: ToolSpec[] = [
         properties: {
           outlet: outletEnum,
           auditor: { type: "string", description: "e.g. 'FSSAI', 'Northwind corporate catering', 'internal'" },
-          date: { type: "string", description: "YYYY-MM-DD" },
+          date: { type: ["string", "null"], description: "YYYY-MM-DD" },
           result: { type: "string", enum: ["pass", "pass with findings", "fail"] },
           findings: { type: "string" },
         },
@@ -144,7 +144,7 @@ export const toolSpecs: ToolSpec[] = [
         type: "object",
         properties: {
           outlet: outletEnum,
-          topic: { type: "string" },
+          topic: { type: ["string", "null"] },
         },
         required: ["outlet"],
       },
@@ -154,13 +154,13 @@ export const toolSpecs: ToolSpec[] = [
     type: "function",
     function: {
       name: "prepare_audit",
-      description: "Prepare an outlet for an upcoming audit: ranked risks based on THIS outlet's history, open issues, evidence to have ready.",
+      description: "Prepare an outlet for an upcoming audit: ranked risks based on THIS outlet's history, open issues, evidence to have ready. CRITICAL: the user cannot see tool output. Your reply after this tool must BE the audit-readiness briefing itself — reproduce the returned analysis formatted with headers/bullets. Never reply with a pleasantry or a follow-up question instead of the briefing.",
       parameters: {
         type: "object",
         properties: {
           outlet: outletEnum,
-          audit_date: { type: "string" },
-          auditor: { type: "string" },
+          audit_date: { type: ["string", "null"] },
+          auditor: { type: ["string", "null"] },
         },
         required: ["outlet"],
       },
@@ -170,11 +170,11 @@ export const toolSpecs: ToolSpec[] = [
     type: "function",
     function: {
       name: "risk_briefing",
-      description: "Weekly risk briefing across all outlets (or one): recurring problems, suppliers, shifts, fixes that did/didn't work, and recommendations.",
+      description: "Weekly risk briefing across all outlets (or one): recurring problems, suppliers, shifts, fixes that did/didn't work, and recommendations. CRITICAL: the user cannot see tool output. Your reply after this tool must BE the briefing itself — reproduce the returned analysis formatted with headers/bullets. Never reply with a pleasantry, a summary offer ('let me know if you'd like...'), or a question. If the user named no outlet, omit the parameter (default = the whole group).",
       parameters: {
         type: "object",
         properties: {
-          outlet: { type: "string", description: "Optional — omit for the whole group" },
+          outlet: { type: ["string", "null"], description: "Optional — omit or null for the whole group" },
         },
       },
     },
@@ -213,7 +213,7 @@ const handlers: Record<string, Handler> = {
 
   async log_delivery(a) {
     const outlet = requireOutlet(a.outlet);
-    const temp = a.temp_c === undefined ? undefined : Number(a.temp_c);
+    const temp = a.temp_c == null ? undefined : Number(a.temp_c);
     const warm = temp !== undefined && temp > 5;
     const accepted = Boolean(a.accepted);
     const who = a.received_by ? `received by ${a.received_by}` : "receiver not recorded";

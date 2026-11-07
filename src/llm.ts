@@ -83,7 +83,7 @@ export async function chat(messages: ChatMessage[], tools?: ToolSpec[], attempt 
         {
           role: "system",
           content:
-            "Your previous tool call was malformed. If you call a tool, the arguments MUST be a single valid JSON object matching the schema.",
+            "Your previous tool call was malformed. If you call a tool, the arguments MUST be a single valid JSON object matching the schema: omit optional fields you don't need, and never send null for a field whose schema type does not include null.",
         },
       ],
       retryTools,
